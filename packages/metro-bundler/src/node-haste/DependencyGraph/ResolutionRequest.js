@@ -545,7 +545,9 @@ class ResolutionRequest<TModule: Moduleish, TPackage: Packageish> {
     const extraSearchQueue = [];
     if (this._options.extraNodeModules) {
       const {extraNodeModules} = this._options;
-      const bits = toModuleName.split(path.sep);
+      // scoped package and package relative requires
+      // may use forward slash regardless of platform separator
+      const bits = toModuleName.split(path.sep === '/' ? path.sep : /[\/\\]/);
       const packageName = bits[0];
       if (extraNodeModules[packageName]) {
         bits[0] = extraNodeModules[packageName];
