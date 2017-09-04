@@ -1,4 +1,6 @@
-# metro-bundler
+# @axsy-dev/metro-bundler
+
+This is a fork of metro-bundler patching extraNodeModules resolution running under Windows
 
 [![CircleCI Build Status](https://circleci.com/gh/facebook/metro-bundler.svg?style=shield)](https://circleci.com/gh/facebook/metro-bundler)
 [![npm version](https://badge.fury.io/js/metro-bundler.svg)](http://badge.fury.io/js/metro-bundler)
