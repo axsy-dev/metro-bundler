@@ -1,6 +1,6 @@
 {
-  "version": "0.7.9-axsy.1",
-  "name": "metro-bundler",
+  "version": "0.7.9",
+  "name": "@axsy-dev/metro-bundler",
   "description": "🚇 The JavaScript bundler for React Native.",
   "main": "build/index.js",
   "repository": {
