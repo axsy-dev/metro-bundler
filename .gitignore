@@ -1,5 +1,6 @@
 .eslintcache
 /node_modules
+/packages/*/build/
 /packages/*/node_modules/
 /packages/*/yarn.lock
 /coverage
